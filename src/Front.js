@@ -21,7 +21,7 @@ const FLAGS = {
     britain: <img src={britain} alt=""/>
 }
 
-/*const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1)*/
+const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1)
 
 class Front extends React.Component {    
     render() {
@@ -33,7 +33,7 @@ class Front extends React.Component {
                 <div className={`cover ${color}`}>
                     <div className="passport-title">Passport </div>
                     <div className="flag">{flag}</div>
-                    <div className="country">{/*capitalize*/(country)} </div>
+                    <div className="country">{capitalize(country)} </div>
                 </div>
                 <div>
                     <div className="arrow-left"></div>
