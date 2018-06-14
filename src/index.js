@@ -2,4 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Passport from './Passport';
 
-ReactDOM.render(<Passport country='switzerland' name=''/>,document.getElementById('app'))
+ReactDOM.render(
+  <Passport country='switzerland' name='Nikolay X'/>,
+  document.getElementById('app')
+)
