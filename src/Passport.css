@@ -1,0 +1,79 @@
+
+
+.header {
+  background-color: #222;
+  height: 300px;
+  padding: 20px;
+  color: white;
+}
+
+.passport-title {
+  font-size: 30px;
+  text-align: center;
+  vertical-align: 20px;
+  color: gold;
+  padding-top: 30px;
+  
+}
+
+/* Colours */
+
+.brown {
+  background: brown
+}
+.blue {
+  background: darkblue
+}
+.green {
+  background: green
+}
+.red {
+  background: #f21313
+}
+/* Passport Borders */
+.cover {
+  border-bottom-right-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-left-radius: .4rem;
+  border-top-left-radius: .4rem;  
+  height: 400px;
+  width: 300px;
+  margin: auto;
+}
+
+/*Arrow*/
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid blue;
+  float: right;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; 
+  border-right:30px solid blue; 
+  float: left;
+}
+
+
+
+.country {
+  color: beige;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 50px;
+
+}
+
+.flag {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
