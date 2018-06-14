@@ -1,20 +1,16 @@
-import React from 'react';
-import Front from './Front';
-import Back from './Back';
-import Middle from './Middle';
+import React from 'react'
+import Front from './Front'
+import Back from './Back'
+import Middle from './Middle'
 
-class Passport extends React.Component {
-    render() {
-        return( 
-            <div>
-                <Front/>
-                <div className='gap'/>
-                <Middle/>
-                <div className='gap'/>
-                <Back/>
-            </div>
-        )
-    }
-}
+const Passport = ({ name, country }) => (
+  <div>
+    <Front name={name} country={country} />
+    <div className='gap'/>
+    <Middle name={name} country={country} />
+    <div className='gap'/>
+    <Back/>
+  </div>
+)
 
-export default Passport;
+export default Passport
