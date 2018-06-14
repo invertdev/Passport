@@ -41,6 +41,27 @@
   margin: auto;
 }
 
+.middle {
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  border-bottom-right-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  border-top-left-radius: 1.2rem; 
+}
+.back {
+  border-bottom-right-radius: .4rem;
+  border-top-right-radius: .4rem;
+  border-bottom-left-radius: 1.2rem;
+  border-top-left-radius: 1.2rem;  
+  height: 400px;
+  width: 300px;
+  margin: auto;
+}
+
+
+
 /*Arrow*/
 
 .arrow-right {
@@ -77,3 +98,13 @@
   padding-top: 20px;
 }
 
+.middle {
+  height: 400px;
+  width: 600px;
+  border-radius: 1.2rem;
+
+}
+
+.gap {
+  height: 50px;
+}
