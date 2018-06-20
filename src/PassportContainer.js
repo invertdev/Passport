@@ -4,13 +4,18 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { nextPage as nextPageAction, prevPage as prevPageAction } from './reducers/page'
 
-const PassportContainer = ({ page, nextPage, prevPage }) => (
+const PassportContainer = ({ page, nextPage, prevPage, country, name, DoB, id }) => (
   <Passport 
     {...{
       ...this.props,
       nextPage,
       prevPage,
       page,
+      country,
+      name,
+      DoB,
+      id,
+
     }} 
   />    
 )
