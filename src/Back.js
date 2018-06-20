@@ -13,8 +13,8 @@ class Back extends React.Component {
         const color = COLORS[country] || 'brown'
         return (
             <div className={`back ${color}`}>
-                
-                <div className="country">{(country)} </div> 
+            
+            
             </div>
         )
     }
